@@ -3,9 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style/style.css">
     <title>login</title>
 </head>
-<body>
-    
+<body><!--570x370      one 290  second 280--> <!--color : d000db   Bem-vindo de volta! Faça login para acessar seu painel de design e continuar criando projetos incríveis.-->
+    <main id="conteiner">
+        <section class="img"><img src="images/login_img.jpg" alt="imagem"></section><!--imagem-->
+
+        <!--login-->
+        <section class="login">
+            <h1 class="hello">Bem-vindo de volta!</h1>
+            <p class="descrisao">Faça login para acessar seu painel de design e continuar criando projetos incríveis</p>
+            
+            <!--formularios -->
+            <form action="#">
+                <!--nome-->
+                <article>
+                    <label for="email"><i class="fa-solid fa-user" style="color: #d000db;"></i></label>
+                    <input type="text" name="email" id="email" placeholder="Utilizador" >
+                </article>
+                
+                <!--password-->
+                <article>
+                     <label for="passWord"><i class="fa-solid fa-lock" style="color: #d000db;"></i></label>
+                    <input type="password" name="passWord" id="passWord" placeholder="Senha">
+                </article>
+
+                <!--radios btn-->
+                <article style="margin: 10px 0px;">
+                    <input type="checkbox" name="chk" id="chk">
+                    <label for="chk" style="margin-right: 70px;" class="forgot">Lembrar login</label>
+                    <a href="#" class="forgot">Esqueceu a senha?</a>
+                </article>
+
+                <!--div login-->
+                <div id="btn_login">
+                    <a href="#" id="log">LOGIN</a>
+                     <a href="#" id="criar_conta">Criar conta</a>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer style="color: #fff; padding-top: 8px;">&copy;sheltonricotso</footer>
 </body>
 </html>
